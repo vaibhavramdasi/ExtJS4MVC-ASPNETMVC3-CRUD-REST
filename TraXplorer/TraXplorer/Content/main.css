@@ -1,0 +1,15 @@
+﻿
+.icon-user
+{
+    background-image: url(Content/images/add.gif) !important;
+}
+
+.icon-add
+{
+    background-image: url(../Content/images/add.png) !important;
+}
+
+.icon-delete
+{
+    background-image: url(../Content/images/delete.png) !important;
+}
