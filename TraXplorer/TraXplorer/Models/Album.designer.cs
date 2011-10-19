@@ -22,7 +22,7 @@ namespace TraXplorer.Models
 	using System;
 	
 	
-	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="DataSource")]
+	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="Albums")]
 	public partial class AlbumDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -36,7 +36,7 @@ namespace TraXplorer.Models
     #endregion
 		
 		public AlbumDataContext() : 
-				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["SQLSERVER_CONNECTION_STRING"].ConnectionString, mappingSource)
+				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["AlbumsConnectionString"].ConnectionString, mappingSource)
 		{
 			OnCreated();
 		}
